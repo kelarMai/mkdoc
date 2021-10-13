@@ -1,0 +1,19 @@
+site_name: qhdata.API
+nav:
+  - Home: index.md
+  - 'About': 'about.md'
+  - 'TradingDate': 
+    - 'TestTradingDate1': 'class/TradingDate.md'
+    - 'TestTradingDate2': 'class/trading_date.md'
+theme : 
+    name: readthedocs
+    highlightjs: true
+    hljs_languages: Python
+    collapse_navigation: false
+
+extra_css: [theme_setting/extra.css]
+
+
+markdown_extensions:
+    - toc:
+        permalink: true
